@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <header className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
       <div className="navbar-inner">
-        <div className="logo">Reflow</div>
+        <div className="logo">Task Hub Service Provider</div>
 
         <nav className="nav-links">
           <NavLink to="/" end>Home</NavLink>

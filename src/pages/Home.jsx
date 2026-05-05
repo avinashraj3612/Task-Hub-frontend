@@ -82,7 +82,7 @@ export default function Home() {
   const [projects, setProjects] = useState([]);
   const [activeProjectId, setActiveProjectId] = useState(null);
 
-  const headingText = "Working with Reflow";
+  const headingText = "Working with Task Hub";
   const whiteHeadingLines = [
     "We don’t just build",
     "brands, we shape how",
@@ -204,18 +204,13 @@ if (showLoader) {
         <div className="rf-grid" />
         <div className="rf-text">
             <h1>
-              Brands and websites that <br />
-              move people and <br />
-              drive growth.
+              Task Hub<br>
+              </br>
+              Service Provider
             </h1>
           </div>
         <div className="rf-center">
-          <div className="rf-r" ref={rRef}>
-            <div className="r-stem" />
-            <div className="r-top" />
-            <div className="r-bowl" />
-            <div className="r-leg" />
-          </div>
+          
         </div>
       </section>
       {/*black screen*/}
@@ -225,9 +220,9 @@ if (showLoader) {
             <video src="/assets/images/home.black.webm" autoPlay muted loop playsInline/>
           </div>
           <div className="rf-black-text">
-            <p>Reflow combines strategic thinking with creative precision to help ambitious teams translate who they are into brands people can feel.
+            <p>Task Hub combines strategic thinking with creative precision to help ambitious teams translate who they are into brands people can feel.
                Every project begins by understanding what drives your audience and aligning it with your brand’s purpose, turning vision into emotional resonance.
-                With a senior team and a process built for speed, Reflow crafts brands and websites that feel intentional, perform beautifully, and move fast without compromise.</p>
+                With a senior team and a process built for speed, Task Hub crafts brands and websites that feel intentional, perform beautifully, and move fast without compromise.</p>
 
           </div>
         </div>
@@ -296,7 +291,7 @@ if (showLoader) {
       </div>
       <div className="rf-service-right">
         <p>
-          Reflow builds brands with purpose and clarity combining branding
+          Task Hub builds brands with purpose and clarity combining branding
           strategy, visual identity, and storytelling to create real emotional
           connection, the highest source of engagement. Our process aligns
           your vision with your audience, delivering a brand that inspires,
@@ -320,7 +315,7 @@ if (showLoader) {
       </div>
       <div className="rf-service-right">
         <p>
-         At Reflow, web design is where creativity meets functionality. We
+         At Task Hub, web design is where creativity meets functionality. We
          craft visually striking and emotionally engaging websites that capture
          your brand's essence. Our designs blend beauty with seamless
          navigation, enhanced by micro-interactions and Lottie animations.
@@ -370,7 +365,7 @@ if (showLoader) {
       </div>
       <div className="rf-service-right">
         <p>
-       Creative development at Reflow brings innovation to life. Our team
+       Creative development at Task Hub brings innovation to life. Our team
        combines artistic vision with technical expertise, using WebGL (with
        ThreeJS), GSAP, and AI integrations to create captivating,
        high-performing websites. We fuse creativity with strategy to drive
@@ -523,19 +518,59 @@ if (showLoader) {
     {/* CENTER CARD */}
     <div className="rf-working-card">
       <img
-        src="/assets/images/resume-image.jpg"
+        src="/assets/images/resume-image1.jpg"
         alt="Client"
       />
       <div className="rf-working-content-right">
         <p className="rf-working-quote">
-        Working with Reflow is an absolute pleasure. They
+        Working with Task Hub is an absolute pleasure. They
         are artists of their craft, with passion and patience
         to understand the objective and reach it in an
         ultimate way.
       </p>
 
       <div className="rf-working-author">
-        <strong>Tannu Kumari</strong>
+        <strong>Vikash Kumar</strong>
+        <span>Frontend</span>
+      </div>
+      </div>
+    </div>
+
+    <div className="rf-working-card">
+      <img
+        src="/assets/images/resume-image2.jpg"
+        alt="Client"
+      />
+      <div className="rf-working-content-right">
+        <p className="rf-working-quote">
+        Working with Task Hub is an absolute pleasure. They
+        are artists of their craft, with passion and patience
+        to understand the objective and reach it in an
+        ultimate way.
+      </p>
+
+      <div className="rf-working-author">
+        <strong>Sajjad Alam</strong>
+        <span>Backend</span>
+      </div>
+      </div>
+    </div>
+
+    <div className="rf-working-card">
+      <img
+        src="/assets/images/resume-image3.jpg"
+        alt="Client"
+      />
+      <div className="rf-working-content-right">
+        <p className="rf-working-quote">
+        Working with Task Hub is an absolute pleasure. They
+        are artists of their craft, with passion and patience
+        to understand the objective and reach it in an
+        ultimate way.
+      </p>
+
+      <div className="rf-working-author">
+        <strong>Suresh Horo</strong>
         <span>Remind</span>
       </div>
       </div>

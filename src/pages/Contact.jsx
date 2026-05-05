@@ -78,7 +78,7 @@ export default function Contact() {
       transition={{ duration: 0.8 }}
     >
       <Typewriter
-        words={["It’s time to Reflow."]}
+        words={["It’s time to Task Hub."]}
         typeSpeed={70}
         deleteSpeed={0}
         loop={1}
@@ -103,18 +103,40 @@ export default function Contact() {
         {/* LEFT SIDE */}
         <div className="contact-left">
           <p>
-            Reflow was a true parent to us in migrating our site to Webflow and then redesigning and rebuilding it. 
+            Task Hub was a true parent to us in migrating our site to Webflow and then redesigning and rebuilding it. 
             Their quality for work, commitment to meeting deadlines, level of communication, and flexibility to adapt and changing need were top to class.
           </p>
 
           <div className="contact-profile">
             <img
-              src="/assets/images/resume-image.jpg"
+              src="/assets/images/resume-image1.jpg"
               alt="person"
             />
             <div>
-              <h4>Tannu Kumari</h4>
-              <p>Remind</p>
+              <h4>Vikash Kumar</h4>
+              <p>Frontend</p>
+            </div>
+          </div>
+
+          <div className="contact-profile">
+            <img
+              src="/assets/images/resume-image2.jpg"
+              alt="person"
+            />
+            <div>
+              <h4>Sajjad Alam</h4>
+              <p>Backend</p>
+            </div>
+          </div>
+
+          <div className="contact-profile">
+            <img
+              src="/assets/images/resume-image3.jpg"
+              alt="person"
+            />
+            <div>
+              <h4>Suresh Horo</h4>
+              <p>Reminder</p>
             </div>
           </div>
 

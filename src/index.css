@@ -59,8 +59,8 @@ body,
 }
 
 .contact-profile img {
-  width: 205px;
-  height: 205px;
+  width: 125px;
+  height: 125px;
   border-radius: 16%;
   object-fit: cover;
 }
@@ -1371,7 +1371,7 @@ border-top: 2px solid #000000;
 }
 
 .rf-text h1 {
-  font-size: 44px;
+  font-size: 104px;
   font-weight: 500;
   line-height: 1.15;
   color: #ffffff;
@@ -1380,8 +1380,9 @@ border-top: 2px solid #000000;
 }
 .rf-text {
   position: absolute;
+  bottom: 80px;
   left: 80px;
-  bottom: 30px;
+  right: 40px;
   z-index: 3;
 }
 
@@ -2026,9 +2027,9 @@ transform: translateY(40px);
 
   .rf-text {
     position: absolute;
-    left: 20px;
+    left: 80px;
     right: 20px;
-    bottom: 34px;
+    bottom: 24px;
     padding: 0;
     margin: 0;
     text-align: left;
