@@ -534,11 +534,29 @@ if (showLoader) {
         <span>Frontend</span>
       </div>
       </div>
+
     </div>
 
-   <div>
 
-     <div className="rf-working-card">
+  </div>
+
+  {/* CONTENT BELOW LINE */}
+  <div className="rf-working-content">
+
+    {/* LEFT TERMINOLOGY */}
+    <div className="rf-working-left">
+      <p className="rf-working-label">Testimonials /</p>
+      <p className="rf-working-text">
+        Take a deeper look at what we do for our clients
+        and partners.
+      </p>
+      <Link to="/projects" className="rf-working-link">
+        Projects →
+      </Link>
+    </div>
+
+    {/* CENTER CARD */}
+    <div className="rf-working-card">
       <img
         src="/assets/images/resume-image2.jpg"
         alt="Client"
@@ -556,14 +574,29 @@ if (showLoader) {
         <span>Backend</span>
       </div>
       </div>
+
     </div>
 
 
-   </div>
+  </div>
 
-   <div>
+  {/* CONTENT BELOW LINE */}
+  <div className="rf-working-content">
 
-     <div className="rf-working-card">
+    {/* LEFT TERMINOLOGY */}
+    <div className="rf-working-left">
+      <p className="rf-working-label">Testimonials /</p>
+      <p className="rf-working-text">
+        Take a deeper look at what we do for our clients
+        and partners.
+      </p>
+      <Link to="/projects" className="rf-working-link">
+        Projects →
+      </Link>
+    </div>
+
+    {/* CENTER CARD */}
+    <div className="rf-working-card">
       <img
         src="/assets/images/resume-image3.jpg"
         alt="Client"
@@ -578,12 +611,12 @@ if (showLoader) {
 
       <div className="rf-working-author">
         <strong>Suresh Horo</strong>
-        <span>Remind</span>
+        <span>Reminder</span>
       </div>
       </div>
+
     </div>
 
-   </div>
 
   </div>
 </section>
