@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 
 
-const API_BASE = import.meta.env.VITE_API_URL || "https://reflow-frontend-tau.vercel.app/";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 export default function Contact() {
   const [form, setForm] = useState({
