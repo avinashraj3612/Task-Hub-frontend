@@ -536,7 +536,9 @@ if (showLoader) {
       </div>
     </div>
 
-    <div className="rf-working-card">
+   <div>
+
+     <div className="rf-working-card">
       <img
         src="/assets/images/resume-image2.jpg"
         alt="Client"
@@ -555,6 +557,9 @@ if (showLoader) {
       </div>
       </div>
     </div>
+
+
+   </div>
 
    <div>
 
