@@ -212,6 +212,7 @@ if (showLoader) {
         <div className="rf-center">
           
         </div>
+
       </section>
       {/*black screen*/}
       <section className="rf-black-section">
